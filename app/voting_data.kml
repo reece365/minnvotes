@@ -1,0 +1,3037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Voting Place Data</name>
+    <Style id="icon-1502-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Aitkin County Government Center</name>
+      <address>307 2nd St NW, Rm 121, Aitkin, MN 56431</address>
+      <description><![CDATA[Address: 307 2nd St NW, Rm 121, Aitkin, MN 56431<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>307 2nd St NW, Rm 121, Aitkin, MN 56431</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>East Lake Community Center</name>
+      <address>20650 363rd Ln, McGregor, MN 55760</address>
+      <description><![CDATA[Address: 20650 363rd Ln, McGregor, MN 55760<br>Open: Only open 10/15 (Tue) 9:00 a.m.-3:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>20650 363rd Ln, McGregor, MN 55760</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/15 (Tue) 9:00 a.m.-3:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Anoka County Government Center</name>
+      <address>2100 3rd Avenue, Anoka, MN 55303</address>
+      <description><![CDATA[Address: 2100 3rd Avenue, Anoka, MN 55303<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>2100 3rd Avenue, Anoka, MN 55303</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Andover City Hall</name>
+      <address>1685 Crosstown Boulevard NW, Andover, MN 55304</address>
+      <description><![CDATA[Address: 1685 Crosstown Boulevard NW, Andover, MN 55304<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1685 Crosstown Boulevard NW, Andover, MN 55304</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Anoka City Hall</name>
+      <address>2015 First Ave, Anoka, MN 55303</address>
+      <description><![CDATA[Address: 2015 First Ave, Anoka, MN 55303<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>2015 First Ave, Anoka, MN 55303</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Bethel City Hall</name>
+      <address>23860 Dewey Street, Bethel, MN 55005</address>
+      <description><![CDATA[Address: 23860 Dewey Street, Bethel, MN 55005<br>Open: Mon-Thu 8:00 a.m.-4:30 p.m., closed Fri]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>23860 Dewey Street, Bethel, MN 55005</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 8:00 a.m.-4:30 p.m., closed Fri</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Blaine City Hall</name>
+      <address>10801 Town Square Drive NE Blaine MN 55449</address>
+      <description><![CDATA[Address: 10801 Town Square Drive NE Blaine MN 55449<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>10801 Town Square Drive NE Blaine MN 55449</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Centerville City Hall</name>
+      <address>1880 Main Street, Centerville, MN 55038</address>
+      <description><![CDATA[Address: 1880 Main Street, Centerville, MN 55038<br>Open: Mon-Fri 7:30 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1880 Main Street, Centerville, MN 55038</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 7:30 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Circle Pines City Hall</name>
+      <address>200 Civic Heights Circle, Circle Pines, MN 55014</address>
+      <description><![CDATA[Address: 200 Civic Heights Circle, Circle Pines, MN 55014<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>200 Civic Heights Circle, Circle Pines, MN 55014</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Columbia Heights City Hall</name>
+      <address>3989 Central Avenue, Columbia Heights, MN 55421</address>
+      <description><![CDATA[Address: 3989 Central Avenue, Columbia Heights, MN 55421<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>3989 Central Avenue, Columbia Heights, MN 55421</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Columbus City Offices</name>
+      <address>16319 Kettle River Blvd., Columbus, MN 55025</address>
+      <description><![CDATA[Address: 16319 Kettle River Blvd., Columbus, MN 55025<br>Open: Mon-Fri 8:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>16319 Kettle River Blvd., Columbus, MN 55025</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Coon Rapids City Hall</name>
+      <address>11155 Robinson Drive NW, Coon Rapids, MN 55433</address>
+      <description><![CDATA[Address: 11155 Robinson Drive NW, Coon Rapids, MN 55433<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>11155 Robinson Drive NW, Coon Rapids, MN 55433</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>East Bethel City Hall</name>
+      <address>2241 221st Avenue NE, East Bethel, MN 55011</address>
+      <description><![CDATA[Address: 2241 221st Avenue NE, East Bethel, MN 55011<br>Open: Mon-Fri 8:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>2241 221st Avenue NE, East Bethel, MN 55011</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Fridley Civic Campus</name>
+      <address>7071 University Avenue NE, Fridley, MN 55432</address>
+      <description><![CDATA[Address: 7071 University Avenue NE, Fridley, MN 55432<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>7071 University Avenue NE, Fridley, MN 55432</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Ham Lake City Hall</name>
+      <address>15544 Central Avenue NE, Ham Lake, MN 55304</address>
+      <description><![CDATA[Address: 15544 Central Avenue NE, Ham Lake, MN 55304<br>Open: Mon-Thu 7:00 a.m.-4:30 p.m., Fri 7:00 a.m.-11:00 a.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>15544 Central Avenue NE, Ham Lake, MN 55304</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:00 a.m.-4:30 p.m., Fri 7:00 a.m.-11:00 a.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Hilltop City Hall</name>
+      <address>4555 Jackson Street NE, Hilltop MN 55421</address>
+      <description><![CDATA[Address: 4555 Jackson Street NE, Hilltop MN 55421<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>4555 Jackson Street NE, Hilltop MN 55421</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Lexington City Hall</name>
+      <address>9180 Lexington Avenue, Lexington, MN 55014</address>
+      <description><![CDATA[Address: 9180 Lexington Avenue, Lexington, MN 55014<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>9180 Lexington Avenue, Lexington, MN 55014</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Lino Lakes City Hall</name>
+      <address>600 Town Center Parkway, Lino Lakes, MN 55014</address>
+      <description><![CDATA[Address: 600 Town Center Parkway, Lino Lakes, MN 55014<br>Open: Mon-Thu 8:00 a.m.-4:30 p.m., Fri 8:00 a.m.-12:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>600 Town Center Parkway, Lino Lakes, MN 55014</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 8:00 a.m.-4:30 p.m., Fri 8:00 a.m.-12:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Linwood Town Hall</name>
+      <address>22817 Typo Creek Drive NE, Stacy, MN 55079</address>
+      <description><![CDATA[Address: 22817 Typo Creek Drive NE, Stacy, MN 55079<br>Open: Mon-Thu 8:00 a.m.-5:00 p.m., Fri 8:00 a.m.-12:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>22817 Typo Creek Drive NE, Stacy, MN 55079</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 8:00 a.m.-5:00 p.m., Fri 8:00 a.m.-12:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Nowthen City Office</name>
+      <address>8188 199th Ave NW, Nowthen, MN 55330</address>
+      <description><![CDATA[Address: 8188 199th Ave NW, Nowthen, MN 55330<br>Open: Mon, Tue, Thu 10:00 a.m.-5:00 p.m. Closed Wed, Fri]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>8188 199th Ave NW, Nowthen, MN 55330</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon, Tue, Thu 10:00 a.m.-5:00 p.m. Closed Wed, Fri</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Oak Grove City Hall</name>
+      <address>19900 Nightingale St NW, Oak Grove MN 55011</address>
+      <description><![CDATA[Address: 19900 Nightingale St NW, Oak Grove MN 55011<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>19900 Nightingale St NW, Oak Grove MN 55011</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Ramsey Municipal Center</name>
+      <address>7550 Sunwood Drive NW, Ramsey, MN 55303</address>
+      <description><![CDATA[Address: 7550 Sunwood Drive NW, Ramsey, MN 55303<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>7550 Sunwood Drive NW, Ramsey, MN 55303</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Spring Lake Park City Hall</name>
+      <address>1301 81st Avenue NE Spring Lake Park MN 55432</address>
+      <description><![CDATA[Address: 1301 81st Avenue NE Spring Lake Park MN 55432<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1301 81st Avenue NE Spring Lake Park MN 55432</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>St Francis City Hall</name>
+      <address>23340 Cree Street NW, St Francis MN 55070</address>
+      <description><![CDATA[Address: 23340 Cree Street NW, St Francis MN 55070<br>Open: Mon-Thu 7:00 a.m.-4:00 p.m., Fri 7:00 a.m.-11:00 a.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>23340 Cree Street NW, St Francis MN 55070</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:00 a.m.-4:00 p.m., Fri 7:00 a.m.-11:00 a.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>County Courthouse</name>
+      <address>915 Lake Ave, Detroit Lakes, MN 56501</address>
+      <description><![CDATA[Address: 915 Lake Ave, Detroit Lakes, MN 56501<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>915 Lake Ave, Detroit Lakes, MN 56501</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>White Earth Fire Hall</name>
+      <address>40658 Co Rd 34, White Earth, MN 56591</address>
+      <description><![CDATA[Address: 40658 Co Rd 34, White Earth, MN 56591<br>Open: Only open 10/26 (Sat) 9:00 am-3:00 pm]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>40658 Co Rd 34, White Earth, MN 56591</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/26 (Sat) 9:00 am-3:00 pm</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Auditor-Treasurer's Office]]></name>
+      <address>701 Minnesota Ave NW, Ste 220, Bemidji, MN 56601</address>
+      <description><![CDATA[Address: 701 Minnesota Ave NW, Ste 220, Bemidji, MN 56601<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>701 Minnesota Ave NW, Ste 220, Bemidji, MN 56601</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Red Lake COVID Testing Facility</name>
+      <address>1 Hospital Rd, Red Lake MN 56671</address>
+      <description><![CDATA[Address: 1 Hospital Rd, Red Lake MN 56671<br>Open: Only open 10/2 (Wed) 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1 Hospital Rd, Red Lake MN 56671</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/2 (Wed) 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Leech Lake Mission Community Center</name>
+      <address>2126 Finch Ln SE, Cass Lake MN 56633</address>
+      <description><![CDATA[Address: 2126 Finch Ln SE, Cass Lake MN 56633<br>Open: Only open 10/30 (Wed) 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>2126 Finch Ln SE, Cass Lake MN 56633</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/30 (Wed) 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Benton County Auditor-Treasurer's Office]]></name>
+      <address>531 Dewey St, Foley, MN 56329</address>
+      <description><![CDATA[Address: 531 Dewey St, Foley, MN 56329<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>531 Dewey St, Foley, MN 56329</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Blue Earth County Historic Courthouse</name>
+      <address>204 S 5th Street, Mankato MN 56001</address>
+      <description><![CDATA[Address: 204 S 5th Street, Mankato MN 56001<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>204 S 5th Street, Mankato MN 56001</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Brown County Courthouse</name>
+      <address>14 State Street S, New Ulm, MN 56073</address>
+      <description><![CDATA[Address: 14 State Street S, New Ulm, MN 56073<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>14 State Street S, New Ulm, MN 56073</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Sawyer Community Center</name>
+      <address>3243 Moorhead Rd, Sawyer, MN 55780</address>
+      <description><![CDATA[Address: 3243 Moorhead Rd, Sawyer, MN 55780<br>Open: Only open 10/23 (Wed) 7:00 a.m.-8:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>3243 Moorhead Rd, Sawyer, MN 55780</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/23 (Wed) 7:00 a.m.-8:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Carver County Government Center</name>
+      <address>600 E 4th St, Chaska MN 55318</address>
+      <description><![CDATA[Address: 600 E 4th St, Chaska MN 55318<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>600 E 4th St, Chaska MN 55318</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Waconia City Hall</name>
+      <address>201 S Vine St, Waconia MN 55387</address>
+      <description><![CDATA[Address: 201 S Vine St, Waconia MN 55387<br>Open: Mon-Thu 7:30 a.m.-4:30 p.m., Fri 7:30 a.m.-11:30 a.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>201 S Vine St, Waconia MN 55387</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:30 a.m.-4:30 p.m., Fri 7:30 a.m.-11:30 a.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Cass County Auditor-Treasurer's Department]]></name>
+      <address>303 Minnesota Ave W, 2nd Floor, Walker, MN 56484</address>
+      <description><![CDATA[Address: 303 Minnesota Ave W, 2nd Floor, Walker, MN 56484<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>303 Minnesota Ave W, 2nd Floor, Walker, MN 56484</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>East Gull Lake City Hall</name>
+      <address>10790 Gull Point Rd, East Gull Lake, MN 56401</address>
+      <description><![CDATA[Address: 10790 Gull Point Rd, East Gull Lake, MN 56401<br>Open: Mon-Thu 8:00 a.m.-4:30 p.m., Fri 8:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>10790 Gull Point Rd, East Gull Lake, MN 56401</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 8:00 a.m.-4:30 p.m., Fri 8:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Lake Shore City Hall</name>
+      <address>8583 Interlachen Rd, Lake Shore, MN 56468</address>
+      <description><![CDATA[Address: 8583 Interlachen Rd, Lake Shore, MN 56468<br>Open: Mon-Fri 8:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>8583 Interlachen Rd, Lake Shore, MN 56468</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Leech Lake Reservation Tribal Headquarters</name>
+      <address>190 Sailstar Dr NW, Cass Lake, MN 56633</address>
+      <description><![CDATA[Address: 190 Sailstar Dr NW, Cass Lake, MN 56633<br>Open: Mon-Fri 8:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>190 Sailstar Dr NW, Cass Lake, MN 56633</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Pillager City Hall</name>
+      <address>306 Elm Ave W, Pillager, MN 56473</address>
+      <description><![CDATA[Address: 306 Elm Ave W, Pillager, MN 56473<br>Open: Mon-Fri 8:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>306 Elm Ave W, Pillager, MN 56473</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Pine River City Hall</name>
+      <address>200 Front St N, Pine River, MN 56474</address>
+      <description><![CDATA[Address: 200 Front St N, Pine River, MN 56474<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>200 Front St N, Pine River, MN 56474</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Sylvan Town Hall</name>
+      <address>12956 24th Ave SW, Pillager, MN 56473</address>
+      <description><![CDATA[Address: 12956 24th Ave SW, Pillager, MN 56473<br>Open: Mon-Fri 8:00 a.m.-2:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>12956 24th Ave SW, Pillager, MN 56473</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-2:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Chippewa County Courthouse</name>
+      <address>629 N. 11th St, Montevideo, MN 56265</address>
+      <description><![CDATA[Address: 629 N. 11th St, Montevideo, MN 56265<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>629 N. 11th St, Montevideo, MN 56265</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Clay County Government Center</name>
+      <address>3510 12th Ave S, Moorhead, MN 56560</address>
+      <description><![CDATA[Address: 3510 12th Ave S, Moorhead, MN 56560<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>3510 12th Ave S, Moorhead, MN 56560</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Cook County Auditor-Treasurer's Office]]></name>
+      <address>411 W 2nd St, Grand Marais MN 55604</address>
+      <description><![CDATA[Address: 411 W 2nd St, Grand Marais MN 55604<br>Open: Mon-Fri 8:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>411 W 2nd St, Grand Marais MN 55604</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Cottonwood County Courthouse</name>
+      <address>900 3rd Ave, Windom MN 56101</address>
+      <description><![CDATA[Address: 900 3rd Ave, Windom MN 56101<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>900 3rd Ave, Windom MN 56101</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Historic Courthouse</name>
+      <address>326 Laurel Street, Suite 22, Brainerd, MN 56401</address>
+      <description><![CDATA[Address: 326 Laurel Street, Suite 22, Brainerd, MN 56401<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>326 Laurel Street, Suite 22, Brainerd, MN 56401</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Dakota County Administration Center</name>
+      <address>1590 Highway 55, Hastings, MN 55033</address>
+      <description><![CDATA[Address: 1590 Highway 55, Hastings, MN 55033<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1590 Highway 55, Hastings, MN 55033</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Dakota County Northern Service Center</name>
+      <address>1 Mendota Road West, West St. Paul, MN 55118</address>
+      <description><![CDATA[Address: 1 Mendota Road West, West St. Paul, MN 55118<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1 Mendota Road West, West St. Paul, MN 55118</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Dakota County Western Service Center</name>
+      <address>14955 Galaxie Avenue, Apple Valley, MN 55124</address>
+      <description><![CDATA[Address: 14955 Galaxie Avenue, Apple Valley, MN 55124<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>14955 Galaxie Avenue, Apple Valley, MN 55124</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Apple Valley Municipal Center</name>
+      <address>7100 147th Street W., Apple Valley, MN 55124</address>
+      <description><![CDATA[Address: 7100 147th Street W., Apple Valley, MN 55124<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>7100 147th Street W., Apple Valley, MN 55124</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Burnsville City Hall</name>
+      <address>100 Civic Center Pkwy, Burnsville, MN 55337</address>
+      <description><![CDATA[Address: 100 Civic Center Pkwy, Burnsville, MN 55337<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>100 Civic Center Pkwy, Burnsville, MN 55337</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Eagan Municipal Center</name>
+      <address>3830 Pilot Knob Rd Eagan, MN 55122</address>
+      <description><![CDATA[Address: 3830 Pilot Knob Rd Eagan, MN 55122<br>Open: Mon-Fri 7:30 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>3830 Pilot Knob Rd Eagan, MN 55122</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 7:30 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Farmington City Hall</name>
+      <address>430 Third Street, Farmington, MN 55024</address>
+      <description><![CDATA[Address: 430 Third Street, Farmington, MN 55024<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>430 Third Street, Farmington, MN 55024</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Hastings City Hall</name>
+      <address>101 4th Street East, Hastings, MN 55033</address>
+      <description><![CDATA[Address: 101 4th Street East, Hastings, MN 55033<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>101 4th Street East, Hastings, MN 55033</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Inver Grove Heights</name>
+      <address>8150 Barbara Ave, Inver Grove Heights, MN 55077</address>
+      <description><![CDATA[Address: 8150 Barbara Ave, Inver Grove Heights, MN 55077<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>8150 Barbara Ave, Inver Grove Heights, MN 55077</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Lakeville City Hall</name>
+      <address>20195 Holyoke Avenue, Lakeville, MN 55044</address>
+      <description><![CDATA[Address: 20195 Holyoke Avenue, Lakeville, MN 55044<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>20195 Holyoke Avenue, Lakeville, MN 55044</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Mendota Heights City Hall</name>
+      <address>1101 Victoria Curve, Mendota Heights, MN 55118</address>
+      <description><![CDATA[Address: 1101 Victoria Curve, Mendota Heights, MN 55118<br>Open: Mon-Thu 7:00 a.m.-4:30 p.m., Fri 7:00 a.m.-11:30 a.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1101 Victoria Curve, Mendota Heights, MN 55118</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:00 a.m.-4:30 p.m., Fri 7:00 a.m.-11:30 a.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Northfield City Hall</name>
+      <address>801 Washington Street, Northfield MN 55057</address>
+      <description><![CDATA[Address: 801 Washington Street, Northfield MN 55057<br>Open: Mon, Wed, and Thu 7:30 a.m.-4:30 p.m., Tue 7:30 a.m.-6:00 p.m., Fri 7:30 a.m.-12:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>801 Washington Street, Northfield MN 55057</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon, Wed, and Thu 7:30 a.m.-4:30 p.m., Tue 7:30 a.m.-6:00 p.m., Fri 7:30 a.m.-12:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Carleton College</name>
+      <address>200 Nevada St, Northfield MN 55057</address>
+      <description><![CDATA[Address: 200 Nevada St, Northfield MN 55057<br>Open: Only open 10/10 (Thu) 10:00 a.m.-3:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>200 Nevada St, Northfield MN 55057</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/10 (Thu) 10:00 a.m.-3:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Rosemount City Hall</name>
+      <address>2875 145th Street West, Rosemount MN 55068</address>
+      <description><![CDATA[Address: 2875 145th Street West, Rosemount MN 55068<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>2875 145th Street West, Rosemount MN 55068</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>South St. Paul City Hall</name>
+      <address>125 3rd Avenue North, South St. Paul, MN 55075</address>
+      <description><![CDATA[Address: 125 3rd Avenue North, South St. Paul, MN 55075<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>125 3rd Avenue North, South St. Paul, MN 55075</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>West St. Paul City Hall</name>
+      <address>1616 Humboldt Ave, West St. Paul, MN 55118</address>
+      <description><![CDATA[Address: 1616 Humboldt Ave, West St. Paul, MN 55118<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1616 Humboldt Ave, West St. Paul, MN 55118</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Government Services Building</name>
+      <address>721 Main St N, Mantorville, MN 55955</address>
+      <description><![CDATA[Address: 721 Main St N, Mantorville, MN 55955<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>721 Main St N, Mantorville, MN 55955</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Douglas County Administration Building</name>
+      <address>Douglas County Auditor-Treasurer Office, 821 Cedar St, Lower Level, Alexandria, MN 56308</address>
+      <description><![CDATA[Address: Douglas County Auditor-Treasurer Office, 821 Cedar St, Lower Level, Alexandria, MN 56308<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>Douglas County Auditor-Treasurer Office, 821 Cedar St, Lower Level, Alexandria, MN 56308</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Freeborn County Auditor-Treasurer Office</name>
+      <address>411 South Broadway, Albert Lea, MN 56007</address>
+      <description><![CDATA[Address: 411 South Broadway, Albert Lea, MN 56007<br>Open: Mon-Fri 8:00 a.m.-5:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>411 South Broadway, Albert Lea, MN 56007</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-5:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Goodhue County Government Center</name>
+      <address>509 W 5th St, Red Wing, MN 55066</address>
+      <description><![CDATA[Address: 509 W 5th St, Red Wing, MN 55066<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>509 W 5th St, Red Wing, MN 55066</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Prairie Island Community Center</name>
+      <address>1158 Island Blvd, Red Wing, MN 55066</address>
+      <description><![CDATA[Address: 1158 Island Blvd, Red Wing, MN 55066<br>Open: Only open 10/16 (Wed) 10:00 a.m.-3:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1158 Island Blvd, Red Wing, MN 55066</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/16 (Wed) 10:00 a.m.-3:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Hennepin County Government Center</name>
+      <address>300 S 6th St, Skyway Level, Minneapolis MN 55487</address>
+      <description><![CDATA[Address: 300 S 6th St, Skyway Level, Minneapolis MN 55487<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>300 S 6th St, Skyway Level, Minneapolis MN 55487</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Bloomington Civic Plaza</name>
+      <address>1800 West Old Shakopee Road, Bloomington, MN 55431</address>
+      <description><![CDATA[Address: 1800 West Old Shakopee Road, Bloomington, MN 55431<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1800 West Old Shakopee Road, Bloomington, MN 55431</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Brooklyn Center City Hall</name>
+      <address>6301 Shingle Creek Parkway, Brooklyn Center MN 55430</address>
+      <description><![CDATA[Address: 6301 Shingle Creek Parkway, Brooklyn Center MN 55430<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>6301 Shingle Creek Parkway, Brooklyn Center MN 55430</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Brooklyn Park Council Chambers</name>
+      <address>5200 85th Ave N., Brooklyn Park, MN 55443</address>
+      <description><![CDATA[Address: 5200 85th Ave N., Brooklyn Park, MN 55443<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>5200 85th Ave N., Brooklyn Park, MN 55443</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Champlin City Hall</name>
+      <address>11955 Champlin Drive, Champlin MN 55316</address>
+      <description><![CDATA[Address: 11955 Champlin Drive, Champlin MN 55316<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>11955 Champlin Drive, Champlin MN 55316</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Corcoran City Hall</name>
+      <address>8200 County Road 116, Corcoran, MN 55340</address>
+      <description><![CDATA[Address: 8200 County Road 116, Corcoran, MN 55340<br>Open: Mon-Thu 8:00 a.m.-5:00 p.m., Fri 8:00 a.m.-12:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>8200 County Road 116, Corcoran, MN 55340</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 8:00 a.m.-5:00 p.m., Fri 8:00 a.m.-12:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Crystal City Hall</name>
+      <address>4141 Douglas Dr. N., Crystal, MN 55422</address>
+      <description><![CDATA[Address: 4141 Douglas Dr. N., Crystal, MN 55422<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>4141 Douglas Dr. N., Crystal, MN 55422</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Dayton City Hall</name>
+      <address>12260 S Diamond Lake Road Dayton MN 55327</address>
+      <description><![CDATA[Address: 12260 S Diamond Lake Road Dayton MN 55327<br>Open: Mon-Thu 7:30 a.m.-5:00 p.m., Fri 8:00 a.m.-12:00 pm.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>12260 S Diamond Lake Road Dayton MN 55327</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:30 a.m.-5:00 p.m., Fri 8:00 a.m.-12:00 pm.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Deephaven City Hall</name>
+      <address>20225 Cottagewood Road, Deephaven MN 55331</address>
+      <description><![CDATA[Address: 20225 Cottagewood Road, Deephaven MN 55331<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>20225 Cottagewood Road, Deephaven MN 55331</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Eden Prairie City Center</name>
+      <address>8080 Mitchell Road, Eden Prairie, MN 55344</address>
+      <description><![CDATA[Address: 8080 Mitchell Road, Eden Prairie, MN 55344<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>8080 Mitchell Road, Eden Prairie, MN 55344</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Edina City Hall</name>
+      <address>4801 W. 50th St., Edina, MN 55424</address>
+      <description><![CDATA[Address: 4801 W. 50th St., Edina, MN 55424<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>4801 W. 50th St., Edina, MN 55424</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Excelsior City Hall</name>
+      <address>350 Highway 7, Suite 230, Excelsior, MN 55331</address>
+      <description><![CDATA[Address: 350 Highway 7, Suite 230, Excelsior, MN 55331<br>Open: Mon-Thu 7:30 a.m.-5:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>350 Highway 7, Suite 230, Excelsior, MN 55331</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:30 a.m.-5:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Golden Valley City Hall</name>
+      <address>7800 Golden Valley Road, Golden Valley MN 55427</address>
+      <description><![CDATA[Address: 7800 Golden Valley Road, Golden Valley MN 55427<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>7800 Golden Valley Road, Golden Valley MN 55427</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Greenfield City Hall</name>
+      <address>7738 Commerce Circle, Greenfield, MN 55373</address>
+      <description><![CDATA[Address: 7738 Commerce Circle, Greenfield, MN 55373<br>Open: Mon-Thu 7:00 a.m.-5:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>7738 Commerce Circle, Greenfield, MN 55373</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:00 a.m.-5:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Greenwood - Excelsior City Hall</name>
+      <address>350 Highway 7, Suite 230, Excelsior, MN 55331</address>
+      <description><![CDATA[Address: 350 Highway 7, Suite 230, Excelsior, MN 55331<br>Open: Mon-Thu 7:30 a.m.-5:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>350 Highway 7, Suite 230, Excelsior, MN 55331</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:30 a.m.-5:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Hopkins City Hall</name>
+      <address>1010 1st St. S., Hopkins, MN 55343</address>
+      <description><![CDATA[Address: 1010 1st St. S., Hopkins, MN 55343<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1010 1st St. S., Hopkins, MN 55343</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Independence City Hall</name>
+      <address>1920 County Road 90, Independence, MN 55359</address>
+      <description><![CDATA[Address: 1920 County Road 90, Independence, MN 55359<br>Open: Mon-Thu 8:00 a.m.-4:30 p.m., Fri 8:00 a.m.-12:00 pm.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1920 County Road 90, Independence, MN 55359</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 8:00 a.m.-4:30 p.m., Fri 8:00 a.m.-12:00 pm.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Long Lake City Hall</name>
+      <address>450 Virginia Avenue, Long Lake, MN 55356</address>
+      <description><![CDATA[Address: 450 Virginia Avenue, Long Lake, MN 55356<br>Open: Mon-Fri 9:00 a.m.-2:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>450 Virginia Avenue, Long Lake, MN 55356</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 9:00 a.m.-2:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Loretto City Hall - Council Chambers</name>
+      <address>279 Medina St N, Ste 260, Loretto MN 55357</address>
+      <description><![CDATA[Address: 279 Medina St N, Ste 260, Loretto MN 55357<br>Open: Mon-Wed 8:00 a.m.-4:00 p.m., Fri 8:00 a.m.-2:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>279 Medina St N, Ste 260, Loretto MN 55357</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Wed 8:00 a.m.-4:00 p.m., Fri 8:00 a.m.-2:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Maple Grove Government Center</name>
+      <address>12800 Arbor Lakes Parkway North, Maple Grove MN 55369</address>
+      <description><![CDATA[Address: 12800 Arbor Lakes Parkway North, Maple Grove MN 55369<br>Open: Mon-Fri 8:00 a.m-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>12800 Arbor Lakes Parkway North, Maple Grove MN 55369</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Maple Plain City Hall - Discovery Center</name>
+      <address>5050 Independence Street, Maple Plain MN 55359</address>
+      <description><![CDATA[Address: 5050 Independence Street, Maple Plain MN 55359<br>Open: Mon-Fri 9:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>5050 Independence Street, Maple Plain MN 55359</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 9:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Medina City Hall</name>
+      <address>2052 County Road 24, Medina, MN 55340</address>
+      <description><![CDATA[Address: 2052 County Road 24, Medina, MN 55340<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>2052 County Road 24, Medina, MN 55340</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Minneapolis Elections & Voter Services]]></name>
+      <address>980 E Hennepin Ave, Minneapolis, MN 55414</address>
+      <description><![CDATA[Address: 980 E Hennepin Ave, Minneapolis, MN 55414<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m. closed 10/14 (Mon)]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>980 E Hennepin Ave, Minneapolis, MN 55414</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m. closed 10/14 (Mon)</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Urban League Twin Cities</name>
+      <address>2100 Plymouth Ave N, Minneapolis MN 55411</address>
+      <description><![CDATA[Address: 2100 Plymouth Ave N, Minneapolis MN 55411<br>Open: Mon-Fri 8:00 a.m.-6:00 p.m. Open starting 10/22 (Tue), also open 10/27 (Sun) 9:00 a.m.-3:00 p.m., open at 7:00 a.m. on 11/1 (Fri) and 11/4 (Mon)]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>2100 Plymouth Ave N, Minneapolis MN 55411</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-6:00 p.m. Open starting 10/22 (Tue), also open 10/27 (Sun) 9:00 a.m.-3:00 p.m., open at 7:00 a.m. on 11/1 (Fri) and 11/4 (Mon)</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Bethel Lutheran Church</name>
+      <address>4120 17th Ave S, Minneapolis MN 55407</address>
+      <description><![CDATA[Address: 4120 17th Ave S, Minneapolis MN 55407<br>Open: Mon-Fri 8:00 a.m.-6:00 p.m. Open starting 10/22 (Tue), also open 10/27 (Sun) 9:00 a.m.-3:00 p.m., open at 7:00 a.m. on 11/1 (Fri) and 11/4 (Mon)]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>4120 17th Ave S, Minneapolis MN 55407</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-6:00 p.m. Open starting 10/22 (Tue), also open 10/27 (Sun) 9:00 a.m.-3:00 p.m., open at 7:00 a.m. on 11/1 (Fri) and 11/4 (Mon)</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Minnetonka Community Center</name>
+      <address>14600 Minnetonka Blvd, Minnetonka, MN 55345</address>
+      <description><![CDATA[Address: 14600 Minnetonka Blvd, Minnetonka, MN 55345<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>14600 Minnetonka Blvd, Minnetonka, MN 55345</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Minnetonka Beach City Hall</name>
+      <address>2945 Westwood Rd, Minnetonka Beach MN 55361</address>
+      <description><![CDATA[Address: 2945 Westwood Rd, Minnetonka Beach MN 55361<br>Open: Mon-Thu 8:00 a.m.-12:00 p.m. and 1:00 p.m.-4:30 p.m., Fri 8:00 a.m.-12:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>2945 Westwood Rd, Minnetonka Beach MN 55361</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 8:00 a.m.-12:00 p.m. and 1:00 p.m.-4:30 p.m., Fri 8:00 a.m.-12:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Minnetrista City Hall</name>
+      <address>7701 Co Rd 110 W, Minnetrista MN 55364</address>
+      <description><![CDATA[Address: 7701 Co Rd 110 W, Minnetrista MN 55364<br>Open: Mon-Thu 8:00 a.m.-4:30 p.m., Fri 7:30 a.m.-11:30 a.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>7701 Co Rd 110 W, Minnetrista MN 55364</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 8:00 a.m.-4:30 p.m., Fri 7:30 a.m.-11:30 a.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Mound City Hall</name>
+      <address>2415 Wilshire Blvd., Mound MN 55364</address>
+      <description><![CDATA[Address: 2415 Wilshire Blvd., Mound MN 55364<br>Open: Mon-Thu 7:30 a.m.-5:00 p.m., Fri 7:30 a.m.-12:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>2415 Wilshire Blvd., Mound MN 55364</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:30 a.m.-5:00 p.m., Fri 7:30 a.m.-12:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>New Hope City Hall</name>
+      <address>4401 Xylon Ave N, New Hope MN 55428</address>
+      <description><![CDATA[Address: 4401 Xylon Ave N, New Hope MN 55428<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>4401 Xylon Ave N, New Hope MN 55428</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Orono City Hall</name>
+      <address>2750 Kelley Parkway, Orono, MN 55323</address>
+      <description><![CDATA[Address: 2750 Kelley Parkway, Orono, MN 55323<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>2750 Kelley Parkway, Orono, MN 55323</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Osseo City Hall Administration</name>
+      <address>415 Central Ave, Osseo MN 55369</address>
+      <description><![CDATA[Address: 415 Central Ave, Osseo MN 55369<br>Open: Mon-Thu 7:30 a.m.-5:00 p.m., Fri 7:30 a.m.-11:30 a.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>415 Central Ave, Osseo MN 55369</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:30 a.m.-5:00 p.m., Fri 7:30 a.m.-11:30 a.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Plymouth City Hall</name>
+      <address>3400 Plymouth Boulevard, Plymouth, MN 55447</address>
+      <description><![CDATA[Address: 3400 Plymouth Boulevard, Plymouth, MN 55447<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>3400 Plymouth Boulevard, Plymouth, MN 55447</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Richfield City Hall</name>
+      <address>6700 Portland Ave S, Richfield MN 55423</address>
+      <description><![CDATA[Address: 6700 Portland Ave S, Richfield MN 55423<br>Open: Mon-Fri 8:00 a.m.-4:30pm]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>6700 Portland Ave S, Richfield MN 55423</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30pm</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Robbinsdale City Hall</name>
+      <address>4100 Lakeview Ave. N. Robbinsdale, MN 55422</address>
+      <description><![CDATA[Address: 4100 Lakeview Ave. N. Robbinsdale, MN 55422<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>4100 Lakeview Ave. N. Robbinsdale, MN 55422</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Rogers Community Room/Fire Station 1</name>
+      <address>21201 Memorial Drive, Rogers, MN 55374</address>
+      <description><![CDATA[Address: 21201 Memorial Drive, Rogers, MN 55374<br>Open: Mon-Thu 9:00 a.m.-3:30 p.m., Fri 9:00 a.m.-1:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>21201 Memorial Drive, Rogers, MN 55374</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 9:00 a.m.-3:30 p.m., Fri 9:00 a.m.-1:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Ramsey County Library - Roseville</name>
+      <address>2180 Hamline Ave North, Roseville MN 55113</address>
+      <description><![CDATA[Address: 2180 Hamline Ave North, Roseville MN 55113<br>Open: Mon-Fri 10:00 a.m.-4:00 p.m. Open starting 10/18 (Fri), not open extended hours 10/29 (Tue)]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>2180 Hamline Ave North, Roseville MN 55113</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 10:00 a.m.-4:00 p.m. Open starting 10/18 (Fri), not open extended hours 10/29 (Tue)</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Ramsey County Elections - Plato Building</name>
+      <address>90 Plato Boulevard West, St. Paul, MN 55107</address>
+      <description><![CDATA[Address: 90 Plato Boulevard West, St. Paul, MN 55107<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>90 Plato Boulevard West, St. Paul, MN 55107</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>St Bonifacius City Hall</name>
+      <address>8535 Kennedy Memorial Dr., St Bonifacius MN 55375</address>
+      <description><![CDATA[Address: 8535 Kennedy Memorial Dr., St Bonifacius MN 55375<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>8535 Kennedy Memorial Dr., St Bonifacius MN 55375</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>St. Louis Park City Hall</name>
+      <address>5005 Minnetonka Blvd., St. Louis Park, MN 55416</address>
+      <description><![CDATA[Address: 5005 Minnetonka Blvd., St. Louis Park, MN 55416<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>5005 Minnetonka Blvd., St. Louis Park, MN 55416</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Parkshore Senior Campus</name>
+      <address>3663 Park Center Blvd, St. Louis Park, MN 55416</address>
+      <description><![CDATA[Address: 3663 Park Center Blvd, St. Louis Park, MN 55416<br>Open: Only open 10/7 (Mon) 12:00 p.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>3663 Park Center Blvd, St. Louis Park, MN 55416</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/7 (Mon) 12:00 p.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Sholom Home West</name>
+      <address>3620 Phillips Pkwy, St. Louis Park, MN 55426</address>
+      <description><![CDATA[Address: 3620 Phillips Pkwy, St. Louis Park, MN 55426<br>Open: Only open 10/15 (Tue) 10:00 a.m.-2:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>3620 Phillips Pkwy, St. Louis Park, MN 55426</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/15 (Tue) 10:00 a.m.-2:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Shorewood City Hall</name>
+      <address>5755 Country Club Road, Shorewood, MN 55331</address>
+      <description><![CDATA[Address: 5755 Country Club Road, Shorewood, MN 55331<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>5755 Country Club Road, Shorewood, MN 55331</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Spring Park City Hall</name>
+      <address>4349 Warren Avenue, Spring Park MN 55384</address>
+      <description><![CDATA[Address: 4349 Warren Avenue, Spring Park MN 55384<br>Open: Mon-Thu 7:30 a.m.-5:00 p.m., Fri 7:30 a.m.-11:30 a.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>4349 Warren Avenue, Spring Park MN 55384</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:30 a.m.-5:00 p.m., Fri 7:30 a.m.-11:30 a.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Tonka Bay City Hall</name>
+      <address>4901 Manitou Rd, Tonka Bay MN 55331</address>
+      <description><![CDATA[Address: 4901 Manitou Rd, Tonka Bay MN 55331<br>Open: Mon-Thu 7:00 a.m.-5:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>4901 Manitou Rd, Tonka Bay MN 55331</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:00 a.m.-5:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Wayzata City Hall</name>
+      <address>600 Rice St E, Wayzata 55391</address>
+      <description><![CDATA[Address: 600 Rice St E, Wayzata 55391<br>Open: Mon-Thu 7:00 a.m.-4:30 p.m., Fri 7:00 a.m.-11:00 a.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>600 Rice St E, Wayzata 55391</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:00 a.m.-4:30 p.m., Fri 7:00 a.m.-11:00 a.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Woodland-Deephaven City Hall</name>
+      <address>20225 Cottagewood Road, Deephaven MN 55331</address>
+      <description><![CDATA[Address: 20225 Cottagewood Road, Deephaven MN 55331<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>20225 Cottagewood Road, Deephaven MN 55331</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Hubbard County Courthouse</name>
+      <address>301 Court Avenue, Park Rapids, MN 56470</address>
+      <description><![CDATA[Address: 301 Court Avenue, Park Rapids, MN 56470<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>301 Court Avenue, Park Rapids, MN 56470</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Isanti County Government Center</name>
+      <address>555 18th Ave SW, Cambridge, MN 55008</address>
+      <description><![CDATA[Address: 555 18th Ave SW, Cambridge, MN 55008<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>555 18th Ave SW, Cambridge, MN 55008</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Jackson County Auditor/Treasurer</name>
+      <address>405 4th Street, Jackson MN 56143</address>
+      <description><![CDATA[Address: 405 4th Street, Jackson MN 56143<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>405 4th Street, Jackson MN 56143</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>County Office Building</name>
+      <address>400 Benson Ave SW, Willmar, MN 56201</address>
+      <description><![CDATA[Address: 400 Benson Ave SW, Willmar, MN 56201<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>400 Benson Ave SW, Willmar, MN 56201</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Kittson County Courthouse</name>
+      <address>410 5th St S, Ste 212, Hallock MN 56728</address>
+      <description><![CDATA[Address: 410 5th St S, Ste 212, Hallock MN 56728<br>Open: Mon-Fri 8:30 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>410 5th St S, Ste 212, Hallock MN 56728</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:30 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Koochiching County Courthouse Auditor's Office]]></name>
+      <address>715 4th St, International Falls, MN 56649</address>
+      <description><![CDATA[Address: 715 4th St, International Falls, MN 56649<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>715 4th St, International Falls, MN 56649</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Lake of the Woods Government Center</name>
+      <address>206 8th Ave SE, Baudette, MN 56623</address>
+      <description><![CDATA[Address: 206 8th Ave SE, Baudette, MN 56623<br>Open: Mon-Fri 7:30 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>206 8th Ave SE, Baudette, MN 56623</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 7:30 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Le Sueur County Government Center</name>
+      <address>88 South Park Ave, Use East/South doors, Le Center MN 56057</address>
+      <description><![CDATA[Address: 88 South Park Ave, Use East/South doors, Le Center MN 56057<br>Open: Mon-Thu 8:00 a.m.-4:30 p.m., Fri 8:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>88 South Park Ave, Use East/South doors, Le Center MN 56057</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 8:00 a.m.-4:30 p.m., Fri 8:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Lincoln County Courthouse</name>
+      <address>319 N Rebecca Street, Ivanhoe, MN 56142</address>
+      <description><![CDATA[Address: 319 N Rebecca Street, Ivanhoe, MN 56142<br>Open: Mon-Fri 8:30 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>319 N Rebecca Street, Ivanhoe, MN 56142</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:30 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[County Government Center - Auditor Treasurer's Office]]></name>
+      <address>607 W Main Street, 2nd Floor, Marshall, MN 56258</address>
+      <description><![CDATA[Address: 607 W Main Street, 2nd Floor, Marshall, MN 56258<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>607 W Main Street, 2nd Floor, Marshall, MN 56258</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>McLeod County Government Center</name>
+      <address>520 Chandler Avenue North, Glencoe, MN 55336</address>
+      <description><![CDATA[Address: 520 Chandler Avenue North, Glencoe, MN 55336<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>520 Chandler Avenue North, Glencoe, MN 55336</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Hutchinson City Center</name>
+      <address>111 Hassan Street SE, Hutchinson, MN 55350</address>
+      <description><![CDATA[Address: 111 Hassan Street SE, Hutchinson, MN 55350<br>Open: Mon-Fri 8:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>111 Hassan Street SE, Hutchinson, MN 55350</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Twin Lakes Fire Department</name>
+      <address>245 County Road 4, Mahnomen, MN 56557</address>
+      <description><![CDATA[Address: 245 County Road 4, Mahnomen, MN 56557<br>Open: Only open 10/26 (Sat) 9:00 a.m.-3:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>245 County Road 4, Mahnomen, MN 56557</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/26 (Sat) 9:00 a.m.-3:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Marshall County Courthouse Auditor's Office]]></name>
+      <address>208 E Colvin Ave, Ste 11, Warren, MN 56762</address>
+      <description><![CDATA[Address: 208 E Colvin Ave, Ste 11, Warren, MN 56762<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>208 E Colvin Ave, Ste 11, Warren, MN 56762</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Meeker County Courthouse</name>
+      <address>325 N Sibley Avenue, Litchfield MN 55355</address>
+      <description><![CDATA[Address: 325 N Sibley Avenue, Litchfield MN 55355<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>325 N Sibley Avenue, Litchfield MN 55355</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>County Historic Courthouse</name>
+      <address>635 2nd St SE, Milaca, MN 56353</address>
+      <description><![CDATA[Address: 635 2nd St SE, Milaca, MN 56353<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>635 2nd St SE, Milaca, MN 56353</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Mille Lacs Band Community Center</name>
+      <address>43500 Virgo Rd, Onamia, MN 56359</address>
+      <description><![CDATA[Address: 43500 Virgo Rd, Onamia, MN 56359<br>Open: Only open 10/14 (Mon) 10:00 a.m.-6:00 p.m. and 11/1 (Fri) 12:00 p.m.-6:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>43500 Virgo Rd, Onamia, MN 56359</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/14 (Mon) 10:00 a.m.-6:00 p.m. and 11/1 (Fri) 12:00 p.m.-6:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Morrison County Government Center</name>
+      <address>213 SE 1st Ave, Little Falls MN 56345</address>
+      <description><![CDATA[Address: 213 SE 1st Ave, Little Falls MN 56345<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>213 SE 1st Ave, Little Falls MN 56345</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Mower County Government Center</name>
+      <address>201 1st Street NE, Austin, MN 55912, Entrance and parking to NW of building facing 2nd Ave NE</address>
+      <description><![CDATA[Address: 201 1st Street NE, Austin, MN 55912, Entrance and parking to NW of building facing 2nd Ave NE<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>201 1st Street NE, Austin, MN 55912, Entrance and parking to NW of building facing 2nd Ave NE</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Murray County Government Center</name>
+      <address>2500 28th St, Slayton, MN 56172</address>
+      <description><![CDATA[Address: 2500 28th St, Slayton, MN 56172<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>2500 28th St, Slayton, MN 56172</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Nicollet County Government Center</name>
+      <address>501 S Minnesota Ave, St Peter MN 56082</address>
+      <description><![CDATA[Address: 501 S Minnesota Ave, St Peter MN 56082<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>501 S Minnesota Ave, St Peter MN 56082</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Nobles County Government Center</name>
+      <address><![CDATA[Auditor-Treasurer's office, 315 10th Street, Worthington MN 56187]]></address>
+      <description><![CDATA[Address: Auditor-Treasurer's office, 315 10th Street, Worthington MN 56187<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value><![CDATA[Auditor-Treasurer's office, 315 10th Street, Worthington MN 56187]]></value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[County Courthouse - Auditor-Treasurer's Office]]></name>
+      <address>16 East 3rd Ave, Ada, MN 56510</address>
+      <description><![CDATA[Address: 16 East 3rd Ave, Ada, MN 56510<br>Open: Mon-Fri 8:30 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>16 East 3rd Ave, Ada, MN 56510</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:30 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Elections Office</name>
+      <address>2122 Campus Dr, Suite 300, Rochester MN 55904</address>
+      <description><![CDATA[Address: 2122 Campus Dr, Suite 300, Rochester MN 55904<br>Open: Mon-Fri 8:00 a.m.-5:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>2122 Campus Dr, Suite 300, Rochester MN 55904</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-5:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Government Center</name>
+      <address>201 4th St SE, Rochester MN 55904</address>
+      <description><![CDATA[Address: 201 4th St SE, Rochester MN 55904<br>Open: Only open 10/29 (Tue) 8:00 a.m.-7:00 p.m., 10/30-11/1 (Wed-Fri) 8:00 a.m.-5:00 p.m., 11/2-11/3 (Sat-Sun) 9:00 a.m.-3:00 p.m., 11/4 (Mon) 8:00 a.m.-5:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>201 4th St SE, Rochester MN 55904</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/29 (Tue) 8:00 a.m.-7:00 p.m., 10/30-11/1 (Wed-Fri) 8:00 a.m.-5:00 p.m., 11/2-11/3 (Sat-Sun) 9:00 a.m.-3:00 p.m., 11/4 (Mon) 8:00 a.m.-5:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Government Services Center</name>
+      <address>510 Fir Ave W, Fergus Falls MN 56537</address>
+      <description><![CDATA[Address: 510 Fir Ave W, Fergus Falls MN 56537<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>510 Fir Ave W, Fergus Falls MN 56537</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Pennington County Government Center</name>
+      <address>101 Main Ave N, Thief River Falls, MN 56701</address>
+      <description><![CDATA[Address: 101 Main Ave N, Thief River Falls, MN 56701<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>101 Main Ave N, Thief River Falls, MN 56701</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Pine County Courthouse</name>
+      <address>635 Northridge Dr NW, Pine City, MN 55063</address>
+      <description><![CDATA[Address: 635 Northridge Dr NW, Pine City, MN 55063<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>635 Northridge Dr NW, Pine City, MN 55063</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Lena Lake Community Center</name>
+      <address>45749 Grace Lake Rd, Sandstone, MN 55072</address>
+      <description><![CDATA[Address: 45749 Grace Lake Rd, Sandstone, MN 55072<br>Open: Only open 10/15 (Tue) 10:00 a.m.-6:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>45749 Grace Lake Rd, Sandstone, MN 55072</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/15 (Tue) 10:00 a.m.-6:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Meshshakwad Community Center</name>
+      <address>38043 Hinckley Rd, Hinckley, MN 55037</address>
+      <description><![CDATA[Address: 38043 Hinckley Rd, Hinckley, MN 55037<br>Open: Only open 10/25 (Fri) 10:00 a.m.-6:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>38043 Hinckley Rd, Hinckley, MN 55037</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/25 (Fri) 10:00 a.m.-6:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Polk County Government Center</name>
+      <address>612 N Broadway Crookston, MN 56716</address>
+      <description><![CDATA[Address: 612 N Broadway Crookston, MN 56716<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>612 N Broadway Crookston, MN 56716</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>East Grand Forks City Hall</name>
+      <address>600 DeMers Ave East Grand Forks, MN 56721</address>
+      <description><![CDATA[Address: 600 DeMers Ave East Grand Forks, MN 56721<br>Open: Mon-Fri 8:00 a.m.-5:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>600 DeMers Ave East Grand Forks, MN 56721</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-5:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Pope County Auditor/Treasurer's Office]]></name>
+      <address>130 E Minnesota Ave, Glenwood, MN 56334</address>
+      <description><![CDATA[Address: 130 E Minnesota Ave, Glenwood, MN 56334<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>130 E Minnesota Ave, Glenwood, MN 56334</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Ramsey County Elections-Plato Building</name>
+      <address>90 Plato Boulevard West, St. Paul, MN 55107</address>
+      <description><![CDATA[Address: 90 Plato Boulevard West, St. Paul, MN 55107<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>90 Plato Boulevard West, St. Paul, MN 55107</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Arlington Hills Community Center</name>
+      <address>1200 Payne Ave, St. Paul, MN 55130</address>
+      <description><![CDATA[Address: 1200 Payne Ave, St. Paul, MN 55130<br>Open: Mon-Fri 10:00 a.m.-4:00 p.m. Open starting 10/18 (Fri), not open extended hours 10/29 (Tue)]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1200 Payne Ave, St. Paul, MN 55130</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 10:00 a.m.-4:00 p.m. Open starting 10/18 (Fri), not open extended hours 10/29 (Tue)</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Frogtown Community Center</name>
+      <address>230 Como Ave, St. Paul, MN 55103</address>
+      <description><![CDATA[Address: 230 Como Ave, St. Paul, MN 55103<br>Open: Mon-Fri 10:00 a.m.-4:00 p.m. Open starting 10/18 (Fri), not open extended hours 10/29 (Tue)]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>230 Como Ave, St. Paul, MN 55103</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 10:00 a.m.-4:00 p.m. Open starting 10/18 (Fri), not open extended hours 10/29 (Tue)</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Ramsey County Library - Shoreview</name>
+      <address>4560 Victoria St N, Shoreview, MN 55126</address>
+      <description><![CDATA[Address: 4560 Victoria St N, Shoreview, MN 55126<br>Open: Mon-Fri 10:00 a.m.-4:00 p.m. Open starting 10/18 (Fri), not open extended hours 10/29 (Tue)]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>4560 Victoria St N, Shoreview, MN 55126</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 10:00 a.m.-4:00 p.m. Open starting 10/18 (Fri), not open extended hours 10/29 (Tue)</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Maplewood City Hall</name>
+      <address>1830 County Road B E, Maplewood MN 55109</address>
+      <description><![CDATA[Address: 1830 County Road B E, Maplewood MN 55109<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m. Maplewood residents only]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1830 County Road B E, Maplewood MN 55109</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m. Maplewood residents only</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Renville County Courthouse</name>
+      <address>500 E DePue Ave, Suite 202, Olivia, MN 56277</address>
+      <description><![CDATA[Address: 500 E DePue Ave, Suite 202, Olivia, MN 56277<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>500 E DePue Ave, Suite 202, Olivia, MN 56277</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Rice County Elections Department</name>
+      <address>320 3rd St NW, Faribault MN 55021</address>
+      <description><![CDATA[Address: 320 3rd St NW, Faribault MN 55021<br>Open: Mon-Thu 8:00 a.m.-4:30 p.m., Fri 8:00 a.m.-12:00 p.m. (through September 27), Fri 8:00 a.m.-4:30 p.m. (starting October 4)]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>320 3rd St NW, Faribault MN 55021</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 8:00 a.m.-4:30 p.m., Fri 8:00 a.m.-12:00 p.m. (through September 27), Fri 8:00 a.m.-4:30 p.m. (starting October 4)</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Rock County Courthouse</name>
+      <address>204 E Brown St, Luverne, MN 56156</address>
+      <description><![CDATA[Address: 204 E Brown St, Luverne, MN 56156<br>Open: Mon-Fri 8:00 a.m.-5:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>204 E Brown St, Luverne, MN 56156</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-5:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Virginia Government Services Center</name>
+      <address><![CDATA[201 S 3rd Ave W, Auditor's Window, Virginia MN 55792]]></address>
+      <description><![CDATA[Address: 201 S 3rd Ave W, Auditor's Window, Virginia MN 55792<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value><![CDATA[201 S 3rd Ave W, Auditor's Window, Virginia MN 55792]]></value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Bois Forte Tribal Government Building</name>
+      <address>Eagle Room, 5344 Lakeshore Dr, Nett Lake MN 55772</address>
+      <description><![CDATA[Address: Eagle Room, 5344 Lakeshore Dr, Nett Lake MN 55772<br>Open: Only open 10/16 (Wed) 12:00 p.m.-6:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>Eagle Room, 5344 Lakeshore Dr, Nett Lake MN 55772</value>
+        </Data>
+        <Data name="Open">
+          <value>Only open 10/16 (Wed) 12:00 p.m.-6:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Aurora City Government Center</name>
+      <address>16 W 2nd Ave N, Upstairs, Aurora MN 55705</address>
+      <description><![CDATA[Address: 16 W 2nd Ave N, Upstairs, Aurora MN 55705<br>Open: Mon-Fri 8:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>16 W 2nd Ave N, Upstairs, Aurora MN 55705</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Babbitt City Hall</name>
+      <address>71 South Dr, Babbitt MN 55706</address>
+      <description><![CDATA[Address: 71 South Dr, Babbitt MN 55706<br>Open: Mon-Fri 7:30 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>71 South Dr, Babbitt MN 55706</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 7:30 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Biwabik City Hall</name>
+      <address>321 Main St, Biwabik MN 55708</address>
+      <description><![CDATA[Address: 321 Main St, Biwabik MN 55708<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>321 Main St, Biwabik MN 55708</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Buhl City Hall</name>
+      <address>300 Jones Ave, Buhl MN 55713</address>
+      <description><![CDATA[Address: 300 Jones Ave, Buhl MN 55713<br>Open: Mon-Thu 7:00 a.m.-4:00 p.m., Fri 7:00 a.m.-11:00 a.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>300 Jones Ave, Buhl MN 55713</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:00 a.m.-4:00 p.m., Fri 7:00 a.m.-11:00 a.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Chisolm City Hall</name>
+      <address>316 West Lake St, Chisholm MN 55719</address>
+      <description><![CDATA[Address: 316 West Lake St, Chisholm MN 55719<br>Open: Mon-Thu 6:30 a.m.-4:00 p.m., Fri 7:00 a.m.-12:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>316 West Lake St, Chisholm MN 55719</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 6:30 a.m.-4:00 p.m., Fri 7:00 a.m.-12:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Cook City Hall</name>
+      <address>127 S River St, Cook MN 55723</address>
+      <description><![CDATA[Address: 127 S River St, Cook MN 55723<br>Open: Mon-Fri 9:00 a.m.-5:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>127 S River St, Cook MN 55723</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 9:00 a.m.-5:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Duluth City Hall</name>
+      <address>411 W 1st St, Room 318, Duluth MN 55802</address>
+      <description><![CDATA[Address: 411 W 1st St, Room 318, Duluth MN 55802<br>Open: Mon-Fri 8:30 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>411 W 1st St, Room 318, Duluth MN 55802</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:30 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Ely City Hall</name>
+      <address>209 E Chapman St, Ely MN 55731</address>
+      <description><![CDATA[Address: 209 E Chapman St, Ely MN 55731<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>209 E Chapman St, Ely MN 55731</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Eveleth City Hall</name>
+      <address>413 Pierce St, Eveleth MN 55734</address>
+      <description><![CDATA[Address: 413 Pierce St, Eveleth MN 55734<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>413 Pierce St, Eveleth MN 55734</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Gilbert City Hall</name>
+      <address>16 S Broadway St, Gilbert MN 55741</address>
+      <description><![CDATA[Address: 16 S Broadway St, Gilbert MN 55741<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>16 S Broadway St, Gilbert MN 55741</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Hermantown City Hall</name>
+      <address>5105 Maple Grove Rd, Hermantown MN 55811</address>
+      <description><![CDATA[Address: 5105 Maple Grove Rd, Hermantown MN 55811<br>Open: Mon-Fri 8:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>5105 Maple Grove Rd, Hermantown MN 55811</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Hibbing City Hall</name>
+      <address>401 E 21st St, Hibbing MN 55746</address>
+      <description><![CDATA[Address: 401 E 21st St, Hibbing MN 55746<br>Open: Mon-Fri 8:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>401 E 21st St, Hibbing MN 55746</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Hoyt Lakes Municipal Building</name>
+      <address>206 Kennedy Memorial Dr, Hoyt Lakes MN 55750</address>
+      <description><![CDATA[Address: 206 Kennedy Memorial Dr, Hoyt Lakes MN 55750<br>Open: Mon 10:00 a.m.-4:00 p.m., Tue-Thu 7:30 a.m.-4:00 p.m., Fri 7:30 a.m.-11:30 a.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>206 Kennedy Memorial Dr, Hoyt Lakes MN 55750</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon 10:00 a.m.-4:00 p.m., Tue-Thu 7:30 a.m.-4:00 p.m., Fri 7:30 a.m.-11:30 a.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Mountain Iron City Hall</name>
+      <address>8586 Enterprise Dr S, Mountain Iron MN 55768</address>
+      <description><![CDATA[Address: 8586 Enterprise Dr S, Mountain Iron MN 55768<br>Open: Mon-Fri 7:30 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>8586 Enterprise Dr S, Mountain Iron MN 55768</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 7:30 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Rice Lake City Hall</name>
+      <address>4107 W Beyer Rd, Duluth MN 55803</address>
+      <description><![CDATA[Address: 4107 W Beyer Rd, Duluth MN 55803<br>Open: Mon-Fri 7:30 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>4107 W Beyer Rd, Duluth MN 55803</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 7:30 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Tower City Hall</name>
+      <address>602 Main St, Second Floor, Tower MN 55790</address>
+      <description><![CDATA[Address: 602 Main St, Second Floor, Tower MN 55790<br>Open: Mon-Thu 8:00 a.m.-4:30 p.m., Fri 8:00 a.m.-12:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>602 Main St, Second Floor, Tower MN 55790</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 8:00 a.m.-4:30 p.m., Fri 8:00 a.m.-12:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Virginia City Hall</name>
+      <address>327 S 1st St Virginia MN 55792</address>
+      <description><![CDATA[Address: 327 S 1st St Virginia MN 55792<br>Open: Mon-Fri 8:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>327 S 1st St Virginia MN 55792</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>White Township Government Center</name>
+      <address>16 W 2nd Ave N, Upstairs, Aurora MN 55705</address>
+      <description><![CDATA[Address: 16 W 2nd Ave N, Upstairs, Aurora MN 55705<br>Open: Mon-Fri 8:00 a.m.-4:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>16 W 2nd Ave N, Upstairs, Aurora MN 55705</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Scott County Public Works</name>
+      <address>600 Country Trail E, Jordan, MN 55352</address>
+      <description><![CDATA[Address: 600 Country Trail E, Jordan, MN 55352<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>600 Country Trail E, Jordan, MN 55352</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Belle Plaine City Hall</name>
+      <address>218 North Meridian St, Belle Plaine, MN 56011</address>
+      <description><![CDATA[Address: 218 North Meridian St, Belle Plaine, MN 56011<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>218 North Meridian St, Belle Plaine, MN 56011</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Elko City Hall</name>
+      <address>601 Main St, Elko New Market, MN 55054</address>
+      <description><![CDATA[Address: 601 Main St, Elko New Market, MN 55054<br>Open: Mon-Fri 8:00 a.m.-5:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>601 Main St, Elko New Market, MN 55054</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-5:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Jordan City Hall</name>
+      <address>210 East First St, Jordan, MN 55352</address>
+      <description><![CDATA[Address: 210 East First St, Jordan, MN 55352<br>Open: Mon-Fri 8:30 a.m.-5:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>210 East First St, Jordan, MN 55352</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:30 a.m.-5:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>New Prague City Hall</name>
+      <address>118 Central Ave N, New Prague, MN 56071</address>
+      <description><![CDATA[Address: 118 Central Ave N, New Prague, MN 56071<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>118 Central Ave N, New Prague, MN 56071</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Prior Lake City Hall</name>
+      <address>4646 Dakota St SE, Prior Lake, MN 55372</address>
+      <description><![CDATA[Address: 4646 Dakota St SE, Prior Lake, MN 55372<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>4646 Dakota St SE, Prior Lake, MN 55372</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Savage City Hall</name>
+      <address>6000 McColl Dr, Savage, MN 55378</address>
+      <description><![CDATA[Address: 6000 McColl Dr, Savage, MN 55378<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>6000 McColl Dr, Savage, MN 55378</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Shakopee City Hall</name>
+      <address>485 Gorman St, Shakopee, MN 55379</address>
+      <description><![CDATA[Address: 485 Gorman St, Shakopee, MN 55379<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>485 Gorman St, Shakopee, MN 55379</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Sherburne County Government Center</name>
+      <address>13880 Business Center Dr NW, Ste 100, Elk River, MN 55330</address>
+      <description><![CDATA[Address: 13880 Business Center Dr NW, Ste 100, Elk River, MN 55330<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>13880 Business Center Dr NW, Ste 100, Elk River, MN 55330</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Elk River City Hall</name>
+      <address>13065 Orono Pkwy, Elk River, MN 55330</address>
+      <description><![CDATA[Address: 13065 Orono Pkwy, Elk River, MN 55330<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>13065 Orono Pkwy, Elk River, MN 55330</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Sibley County Courthouse</name>
+      <address>400 Court Ave, Gaylord, MN 55334</address>
+      <description><![CDATA[Address: 400 Court Ave, Gaylord, MN 55334<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>400 Court Ave, Gaylord, MN 55334</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Stearns County Service Center</name>
+      <address>3301 County Road 138, Waite Park, MN 56387</address>
+      <description><![CDATA[Address: 3301 County Road 138, Waite Park, MN 56387<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>3301 County Road 138, Waite Park, MN 56387</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>St Cloud City Lake George Municipal Complex</name>
+      <address>1101 7th Street S, St Cloud, MN 56301</address>
+      <description><![CDATA[Address: 1101 7th Street S, St Cloud, MN 56301<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1101 7th Street S, St Cloud, MN 56301</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Cold Spring City Hall</name>
+      <address>27 Red River Ave S, Cold Spring, MN 56320</address>
+      <description><![CDATA[Address: 27 Red River Ave S, Cold Spring, MN 56320<br>Open: Mon-Fri 7:30 a.m.-4:30 p.m. Open starting 10/29]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>27 Red River Ave S, Cold Spring, MN 56320</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 7:30 a.m.-4:30 p.m. Open starting 10/29</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Melrose City Hall</name>
+      <address>225 1st St NE Melrose, MN 56352</address>
+      <description><![CDATA[Address: 225 1st St NE Melrose, MN 56352<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m. Open starting 10/29]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>225 1st St NE Melrose, MN 56352</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m. Open starting 10/29</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Paynesville City Hall</name>
+      <address>221 Washburne Ave, Paynesville, MN 56362</address>
+      <description><![CDATA[Address: 221 Washburne Ave, Paynesville, MN 56362<br>Open: Mon-Fri 8:30 a.m.-4:30 p.m. starting 10/29]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>221 Washburne Ave, Paynesville, MN 56362</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:30 a.m.-4:30 p.m. starting 10/29</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Sartell City Hall</name>
+      <address>125 Pinecone Rd N, Sartell, MN 56377</address>
+      <description><![CDATA[Address: 125 Pinecone Rd N, Sartell, MN 56377<br>Open: Mon-Fri 7:30 a.m.-4:00 p.m. Open starting 10/29]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>125 Pinecone Rd N, Sartell, MN 56377</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 7:30 a.m.-4:00 p.m. Open starting 10/29</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>St Augusta City Hall</name>
+      <address>1914 250th St S, St Cloud, MN 56301</address>
+      <description><![CDATA[Address: 1914 250th St S, St Cloud, MN 56301<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m. Open starting 10/29]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1914 250th St S, St Cloud, MN 56301</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m. Open starting 10/29</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Sauk Centre City</name>
+      <address>320 Oak St S, Sauk Centre, MN 56378</address>
+      <description><![CDATA[Address: 320 Oak St S, Sauk Centre, MN 56378<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m. Open starting 10/29]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>320 Oak St S, Sauk Centre, MN 56378</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m. Open starting 10/29</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>St Joseph City Hall</name>
+      <address>75 Callaway St E, St Joseph, MN 56374</address>
+      <description><![CDATA[Address: 75 Callaway St E, St Joseph, MN 56374<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m. Open starting 10/29]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>75 Callaway St E, St Joseph, MN 56374</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m. Open starting 10/29</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Steele County Administration Center</name>
+      <address>630 Florence Ave, Owatonna, MN 55060</address>
+      <description><![CDATA[Address: 630 Florence Ave, Owatonna, MN 55060<br>Open: Mon-Fri 8:00 a.m.-5:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>630 Florence Ave, Owatonna, MN 55060</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-5:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Stevens County Auditor-Treasurer Office</name>
+      <address>400 Colorado Ave, Suite 303, Stevens County</address>
+      <description><![CDATA[Address: 400 Colorado Ave, Suite 303, Stevens County<br><br>Open: Mon-Fri 8:30 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>400 Colorado Ave, Suite 303, Stevens County
+</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:30 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Todd County Historic Courthouse</name>
+      <address>215 1st Ave S, Suite 201 Long Prairie, MN 56347</address>
+      <description><![CDATA[Address: 215 1st Ave S, Suite 201 Long Prairie, MN 56347<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>215 1st Ave S, Suite 201 Long Prairie, MN 56347</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Traverse County Courthouse</name>
+      <address>702 2nd Ave N, Wheaton, MN 56296</address>
+      <description><![CDATA[Address: 702 2nd Ave N, Wheaton, MN 56296<br>Open: Mon-Fri 8:30 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>702 2nd Ave N, Wheaton, MN 56296</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:30 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[Wadena County Courthouse Auditor/Treasurer's office]]></name>
+      <address>415 Jefferson St. S, Wadena MN 56482</address>
+      <description><![CDATA[Address: 415 Jefferson St. S, Wadena MN 56482<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>415 Jefferson St. S, Wadena MN 56482</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Waseca County Courthouse</name>
+      <address>307 State Street North, Waseca, MN 56093</address>
+      <description><![CDATA[Address: 307 State Street North, Waseca, MN 56093<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>307 State Street North, Waseca, MN 56093</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Washington County Government Center</name>
+      <address>14949 62nd Street North, Stillwater, MN 55082</address>
+      <description><![CDATA[Address: 14949 62nd Street North, Stillwater, MN 55082<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m. Extended hours: 10/26 (Sat), 11/2 (Sat), 11/3 (Sun) open at 8:00 a.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>14949 62nd Street North, Stillwater, MN 55082</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m. Extended hours: 10/26 (Sat), 11/2 (Sat), 11/3 (Sun) open at 8:00 a.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Cottage Grove Service Center</name>
+      <address>13000 Ravine Pkwy, Cottage Grove, MN 55016</address>
+      <description><![CDATA[Address: 13000 Ravine Pkwy, Cottage Grove, MN 55016<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m. Extended hours: 10/26 (Sat), 11/2 (Sat), 11/3 (Sun) open at 8:00 a.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>13000 Ravine Pkwy, Cottage Grove, MN 55016</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m. Extended hours: 10/26 (Sat), 11/2 (Sat), 11/3 (Sun) open at 8:00 a.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Forest Lake Service Center</name>
+      <address>19955 Forest Road North, Forest Lake, MN 55025</address>
+      <description><![CDATA[Address: 19955 Forest Road North, Forest Lake, MN 55025<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m. Extended hours: 10/26 (Sat), 11/2 (Sat), 11/3 (Sun) open at 8:00 a.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>19955 Forest Road North, Forest Lake, MN 55025</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m. Extended hours: 10/26 (Sat), 11/2 (Sat), 11/3 (Sun) open at 8:00 a.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Oakdale City Hall</name>
+      <address>1584 Hadley Ave N, Oakdale, MN 55128</address>
+      <description><![CDATA[Address: 1584 Hadley Ave N, Oakdale, MN 55128<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m. Open starting 10/18 (Fri)]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>1584 Hadley Ave N, Oakdale, MN 55128</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m. Open starting 10/18 (Fri)</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Woodbury City Hall</name>
+      <address>8301 Valley Creek Road, Woodbury, MN 55125</address>
+      <description><![CDATA[Address: 8301 Valley Creek Road, Woodbury, MN 55125<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m. Extended hours: 10/26 (Sat), 11/2 (Sat), 11/3 (Sun) open at 8:00 a.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>8301 Valley Creek Road, Woodbury, MN 55125</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m. Extended hours: 10/26 (Sat), 11/2 (Sat), 11/3 (Sun) open at 8:00 a.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Wilkin County Courthouse</name>
+      <address>300 5th St. S. Breckenridge, MN 56520</address>
+      <description><![CDATA[Address: 300 5th St. S. Breckenridge, MN 56520<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>300 5th St. S. Breckenridge, MN 56520</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Wright County Government Center</name>
+      <address>3650 Braddock Avenue NE, Buffalo, MN 55313</address>
+      <description><![CDATA[Address: 3650 Braddock Avenue NE, Buffalo, MN 55313<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>3650 Braddock Avenue NE, Buffalo, MN 55313</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Albertville City Hall</name>
+      <address>5959 Main Avenue NE, Albertville, MN 55301</address>
+      <description><![CDATA[Address: 5959 Main Avenue NE, Albertville, MN 55301<br>Open: Mon-Thu 7:00 a.m.-5:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>5959 Main Avenue NE, Albertville, MN 55301</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:00 a.m.-5:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Delano City Hall</name>
+      <address>234 2nd Street North, Delano, MN 55328</address>
+      <description><![CDATA[Address: 234 2nd Street North, Delano, MN 55328<br>Open: Mon-Thu 7:30 a.m.-5:00 p.m., Fri 8:00 a.m.-12:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>234 2nd Street North, Delano, MN 55328</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:30 a.m.-5:00 p.m., Fri 8:00 a.m.-12:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Monticello City Hall</name>
+      <address>505 Walnut Street, Monticello, MN 55362</address>
+      <description><![CDATA[Address: 505 Walnut Street, Monticello, MN 55362<br>Open: Mon-Fri 8:00 a.m.-4:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>505 Walnut Street, Monticello, MN 55362</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Fri 8:00 a.m.-4:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>Otsego City Hall</name>
+      <address>13400 90th Street NE, Otsego, MN 55330</address>
+      <description><![CDATA[Address: 13400 90th Street NE, Otsego, MN 55330<br>Open: Mon-Thu 8:00 a.m.-5:00 p.m., Fri 8:00 a.m.-12:00 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>13400 90th Street NE, Otsego, MN 55330</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 8:00 a.m.-5:00 p.m., Fri 8:00 a.m.-12:00 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+    <Placemark>
+      <name>St. Michael City Hall</name>
+      <address>11800 Town Center Drive NE, St. Michael, MN 55376</address>
+      <description><![CDATA[Address: 11800 Town Center Drive NE, St. Michael, MN 55376<br>Open: Mon-Thu 7:30 a.m.-4:30 p.m., Fri 7:30 a.m.-1:30 p.m.]]></description>
+      <styleUrl>#icon-1502-0288D1</styleUrl>
+      <ExtendedData>
+        <Data name="Address">
+          <value>11800 Town Center Drive NE, St. Michael, MN 55376</value>
+        </Data>
+        <Data name="Open">
+          <value>Mon-Thu 7:30 a.m.-4:30 p.m., Fri 7:30 a.m.-1:30 p.m.</value>
+        </Data>
+      </ExtendedData>
+    </Placemark>
+  </Document>
+</kml>

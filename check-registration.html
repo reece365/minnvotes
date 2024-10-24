@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Check Registration</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <h1>Let's check if you're registered to vote</h1>
+        <h3>You're likely registered if you recieved or renewed your drivers license between now and June 2023</h3>
+        
+        <form id="registrationForm" onsubmit="checkRegistration(event)">
+            <div id="name_line" class="form_line">
+                <label for="firstName">Name:</label>
+                <input type="text" id="first_name" required>
+                <input type="text" id="last_name" required>
+            </div>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" required><br><br>
+
+            <label for="zip_code">Zip Code:</label>
+            <input type="number" id="zip_code" required><br><br>
+            
+            <div id="address_line" class="form_line">
+                <label for="street_number">Street Address:</label>
+                <input type="number" id="street_number" required><br><br>
+                <input type="name" id="street_name" required>
+            </div>
+
+            
+            <input type="submit" value="Check Registration">
+        </form>
+
+        <script>
+            function fetch_cookies() {
+                // Fetch the URL "https://mnvotes.sos.mn.gov/VoterStatusCheckResult/Index", and store the cookies it returns
+                fetch("https://cors-anywhere.herokuapp.com/https://mnvotes.sos.mn.gov/VoterStatusCheckResult/Index")
+                    .then(response => {
+                        // Store the cookies in a variable
+                        const cookies = response.headers.get('set-cookie');
+                    });
+            }
+            function check_registration(event) {
+                event.preventDefault();
+                const first_name = document.getElementById('first_name').value;
+                const last_name = document.getElementById('last_name').value;
+                const dob = document.getElementById('dob').value;
+                const zip_code = document.getElementById('zip_code').value;
+                const street_number = document.getElementById('street_number').value;
+                const street_name = document.getElementById('street_name').value;
+            }
+        </script>
+</html>

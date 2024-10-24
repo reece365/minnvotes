@@ -1,0 +1,5 @@
+.form_line {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+}
