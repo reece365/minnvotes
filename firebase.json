@@ -4,12 +4,20 @@
       "source": "functions",
       "codebase": "default",
       "ignore": [
-        "node_modules",
+        "venv",
         ".git",
         "firebase-debug.log",
         "firebase-debug.*.log",
         "*.local"
       ]
     }
-  ]
+  ],
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
 }

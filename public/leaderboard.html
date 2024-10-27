@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MinnStudentsVote</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-Dark-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body style="background: var(--bs-secondary-text-emphasis);color: var(--bs-body-bg);font-family: 'IBM Plex Sans', sans-serif;">
+    <nav class="navbar navbar-expand-md bg-dark py-3" data-bs-theme="dark">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html" style="font-family: 'IBM Plex Sans';font-weight: bold;"><img style="width: 32px;height: 32px;margin: 0px 8px 0px 0px;" src="assets/img/minnstudentsvote.png"><span>MinnVotes</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse text-center flex-grow-0 order-md-first" id="navcol-6">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Leaderboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Voting as a student</a></li>
+                </ul>
+                <div class="d-md-none my-2"><button class="btn btn-primary" type="button">Make a plan to vote</button></div>
+            </div>
+            <div class="d-none d-md-block"><a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" href="#" style="box-shadow: 2px 2px 0px var(--bs-btn-hover-border-color);"><strong>Make a plan to vote</strong></a></div>
+        </div>
+    </nav>
+    <h4 class="text-center" style="padding: 8px;color: var(--bs-body-bg);background: var(--bs-gray-800);border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;">Check the leaderboard 🥇</h4>
+    <div class="d-flex flex-column flex-shrink-1 align-items-stretch" style="background: var(--bs-body-color);margin: 10px;border-radius: 6px;padding: 10px;">
+        <h2 style="text-align: center;margin: 10px;padding: 10px;border-radius: 6px;font-weight: bold;"><strong>Leaderboard</strong></h2>
+        <p class="text-center">Here, your school can compete with others around the state for most students with a plan to vote. <br><br>Make a voting plan to get your school to #1!</p>
+        <div class="table-responsive" style="padding: 0px;border-radius: 6px;">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="align-items-center align-content-center" style="background: var(--bs-light-text-emphasis);color: var(--bs-table-bg);padding: 10px;border-right-width: 1px;border-bottom-width: 2px;text-align: center;">Rank</th>
+                        <th class="align-items-center align-content-center" style="background: var(--bs-light-text-emphasis);color: var(--bs-table-bg);padding: 10px;border-right-width: 1px;border-bottom-width: 2px;text-align: center;">School</th>
+                        <th class="align-items-center align-content-center" style="background: var(--bs-light-text-emphasis);color: var(--bs-table-bg);border-bottom-width: 2px;padding: 10px;text-align: center;">Plans made</th>
+                    </tr>
+                </thead>
+                <tbody style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;">
+                    <tr style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;">
+                        <td class="text-center align-items-center align-content-center" style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;border-right-width: 1px;">#1</td>
+                        <td class="text-center" style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;border-right-width: 1px;">Math and Science Academy</td>
+                        <td class="text-center align-items-center align-content-center" style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;">22</td>
+                    </tr>
+                    <tr style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;">
+                        <td class="text-center align-items-center align-content-center" style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;border-right-width: 1px;">#2</td>
+                        <td class="text-center" style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;border-right-width: 1px;">East Ridge High School</td>
+                        <td class="text-center align-items-center align-content-center" style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;">15</td>
+                    </tr>
+                    <tr style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;">
+                        <td class="text-center align-items-center align-content-center" style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;border-right-width: 1px;">#3</td>
+                        <td class="text-center" style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;border-right-width: 1px;">Woodbury High School</td>
+                        <td class="text-center align-items-center align-content-center" style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;">12</td>
+                    </tr>
+                    <tr style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;">
+                        <td class="text-center align-items-center align-content-center" style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;border-right-width: 1px;border-bottom-width: 0px;">#4</td>
+                        <td class="text-center" style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;border-right-width: 1px;border-bottom-width: 0px;">Park High School</td>
+                        <td class="text-center align-items-center align-content-center" style="background: var(--bs-secondary-text-emphasis);color: var(--bs-table-bg);padding: 10px;border-bottom-width: 0px;">9</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div><button class="btn btn-primary text-center" id="absentee-button" type="button" style="background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);padding: 8px 12px;margin-bottom: 8px;" onclick="navigator.share({title: &quot;MinnVotes Leaderboard&quot;, url: window.href});">Share</button>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/voting_data.js"></script>
+    <script src="assets/js/check-registration.js"></script>
+    <script src="assets/js/finish-plan.js"></script>
+    <script src="assets/js/make-plan.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script src="assets/js/pre-screener.js"></script>
+</body>
+
+</html>

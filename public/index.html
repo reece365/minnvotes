@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MinnStudentsVote</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-Dark-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body style="background: var(--bs-secondary-text-emphasis);color: var(--bs-body-bg);">
+    <nav class="navbar navbar-expand-md bg-dark py-3" data-bs-theme="dark">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#" style="font-family: 'IBM Plex Sans';font-weight: bold;"><img style="width: 32px;height: 32px;margin: 0px 8px 0px 0px;" src="assets/img/minnstudentsvote.png"><span>MinnVotes</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse text-center flex-grow-0 order-md-first" id="navcol-6">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Leaderboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Voting as a student</a></li>
+                </ul>
+                <div class="d-md-none my-2"><button class="btn btn-primary" type="button">Make a plan to vote</button></div>
+            </div>
+            <div class="d-none d-md-block"><a class="btn btn-primary" role="button" href="pre-screener.html" style="background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);"><strong>Make a plan to vote</strong></a></div>
+        </div>
+    </nav>
+    <div class="d-flex flex-column flex-shrink-1 align-items-stretch" style="background: var(--bs-body-color);margin: 10px;border-radius: 6px;padding: 10px;">
+        <h1 style="text-align: center;margin: 10px;padding: 10px;border-radius: 6px;">MinnVotes makes it <strong>easy</strong> to vote as a student</h1>
+        <p class="text-center">Finding information about voting or making time to vote can be tough, especially for young people. However, your vote is important. Young voters have influenced elections before, and voting is one of the best ways to make a difference in your community and country.<br><br>Below, you’ll find resources on voting as a student, how to check your registration, and a leaderboard of schools across the state with students planning to vote.&nbsp;<strong>🗳️&nbsp;🇺🇸</strong></p>
+    </div>
+    <h1 class="text-center"></h1>
+    <div class="d-flex flex-column flex-shrink-1 align-items-stretch" style="background: var(--bs-body-color);margin: 10px;border-radius: 6px;padding: 10px;">
+        <h2 style="text-align: center;margin: 10px;padding: 10px;border-radius: 6px;"><strong>I want to...</strong></h2><a class="btn btn-primary" role="button" style="margin-bottom: 10px;background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);padding: 8px 12px;" id="hover" href="pre-screener.html"><strong>🗳️&nbsp; Make a plan to vote</strong></a><button class="btn btn-primary" type="button" style="margin-bottom: 10px;background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);padding: 8px 12px;"><strong>ℹ️&nbsp; Learn about voting as a student</strong></button><button class="btn btn-primary" type="button" style="margin-bottom: 10px;background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);padding: 8px 12px;"><strong>&nbsp;</strong>🥇&nbsp;<strong>View the school leaderboard</strong></button>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/voting_data.js"></script>
+    <script src="assets/js/check-registration.js"></script>
+    <script src="assets/js/finish-plan.js"></script>
+    <script src="assets/js/make-plan.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script src="assets/js/pre-screener.js"></script>
+</body>
+
+</html>

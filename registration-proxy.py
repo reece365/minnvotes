@@ -54,7 +54,10 @@ def check_registration():
     status_element = soup.find(class_='oss_results_header')
     status_message = status_element.get_text(strip=True) if status_element else 'Status not found'
 
-    return { "status": status_message, "polling_place": "Not implemented" }
+    polling_place_element = soup.find_all(class_='oss_text-data')[1] if len(soup.find_all(class_='oss_text-data')) > 1 else None
+    polling_place = str(polling_place_element) if polling_place_element else 'Polling place not found'
+
+    return { "status": status_message, "polling_place": polling_place }
 
 @app.route('/api/streets', methods=['GET'])
 def streets():

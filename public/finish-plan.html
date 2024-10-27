@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MinnStudentsVote</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-Dark-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body style="background: var(--bs-secondary-text-emphasis);color: var(--bs-body-bg);font-family: 'IBM Plex Sans', sans-serif;">
+    <nav class="navbar navbar-expand-md bg-dark py-3" data-bs-theme="dark">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html" style="font-family: 'IBM Plex Sans';font-weight: bold;"><img style="width: 32px;height: 32px;margin: 0px 8px 0px 0px;" src="assets/img/minnstudentsvote.png"><span>MinnVotes</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse text-center flex-grow-0 order-md-first" id="navcol-6">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Leaderboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Voting as a student</a></li>
+                </ul>
+                <div class="d-md-none my-2"><button class="btn btn-primary" type="button">Make a plan to vote</button></div>
+            </div>
+            <div class="d-none d-md-block"><a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" href="#" style="box-shadow: 2px 2px 0px var(--bs-btn-hover-border-color);"><strong>Make a plan to vote</strong></a></div>
+        </div>
+    </nav>
+    <h4 class="text-center" style="padding: 8px;color: var(--bs-body-bg);background: var(--bs-gray-800);border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;">Make a plan to vote&nbsp;<span style="color: var(--bs-body-bg);">🗳️</span></h4>
+    <div class="d-flex flex-column flex-shrink-1 align-items-stretch" style="background: var(--bs-body-color);margin: 10px;border-radius: 6px;padding: 10px;">
+        <h2 style="text-align: center;margin: 10px;padding: 10px;border-radius: 6px;font-weight: bold;"><strong>Congratulations! 🎉&nbsp;</strong></h2>
+        <p class="text-center">You now have a plan for when, where, and how you'll vote!<br><br>Enter your phone number below to be texted a copy of this plan so you don't forget! <br><br>Additionally, choose your school to compete with others around the state for most students with a plan to vote! 🥇<br><br>Just one thing left to do: <strong>vote!</strong></p>
+        <div class="d-flex flex-row justify-content-between align-items-center" style="background: var(--bs-body-color);--bs-body-color: var(--bs-secondary-text-emphasis);margin: 0px;padding: 10px;border-radius: 6px;margin-bottom: 10px;"><label class="form-label d-flex" style="padding: 0px;margin: 0px;"><strong>Type of voting</strong></label><label class="form-label d-flex" id="voting_type_display" style="padding: 0px;margin: 0px;"><strong>{voting_type}</strong></label></div>
+        <div class="d-flex flex-row justify-content-between align-items-center" style="background: var(--bs-body-color);--bs-body-color: var(--bs-secondary-text-emphasis);margin: 0px;padding: 10px;border-radius: 6px;margin-bottom: 10px;"><label class="form-label d-flex" style="padding: 0px;margin: 0px;"><strong>Date</strong></label><label class="form-label d-flex" id="voting_date_display" style="padding: 0px;margin: 0px;"><strong>{voting_date}</strong></label></div>
+        <div class="d-flex flex-row justify-content-between align-items-center" style="background: var(--bs-body-color);--bs-body-color: var(--bs-secondary-text-emphasis);margin: 0px;padding: 10px;border-radius: 6px;margin-bottom: 10px;"><label class="form-label d-flex" style="padding: 0px;margin: 0px;"><strong>Time</strong></label><label class="form-label d-flex" id="voting_time_display" style="padding: 0px;margin: 0px;"><strong>{voting_time}</strong></label></div>
+        <div class="d-flex flex-row justify-content-between align-items-center" style="background: var(--bs-body-color);--bs-body-color: var(--bs-secondary-text-emphasis);margin: 0px;padding: 10px;border-radius: 6px;margin-bottom: 10px;"><label class="form-label d-flex" style="padding: 0px;margin: 0px;"><strong>Polling place</strong></label><label class="form-label flex-wrap" id="polling_place_display" style="padding: 0px;margin: 0px;text-align: right;"><strong>{polling_place}</strong></label></div><button class="btn btn-primary text-center" id="text-button" type="button" style="background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);padding: 8px 12px;margin-bottom: 8px;" onclick="text_voting_plan()">Text me my voting plan</button><a class="btn btn-primary text-center" role="button" id="absentee-button-1" style="background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);padding: 8px 12px;" href="request-absentee.html">Add me to my school's leaderboard</a>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/voting_data.js"></script>
+    <script src="assets/js/check-registration.js"></script>
+    <script src="assets/js/finish-plan.js"></script>
+    <script src="assets/js/make-plan.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script src="assets/js/pre-screener.js"></script>
+</body>
+
+</html>

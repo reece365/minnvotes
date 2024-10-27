@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+<script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.min.js"></script>
+<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>MinnStudentsVote</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-Dark-icons.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<body style="background: var(--bs-secondary-text-emphasis);color: var(--bs-body-bg);font-family: 'IBM Plex Sans', sans-serif;">
+    <nav class="navbar navbar-expand-md bg-dark py-3" data-bs-theme="dark">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html" style="font-family: 'IBM Plex Sans';font-weight: bold;"><img style="width: 32px;height: 32px;margin: 0px 8px 0px 0px;" src="assets/img/minnstudentsvote.png"><span>MinnVotes</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse text-center flex-grow-0 order-md-first" id="navcol-6">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Leaderboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Voting as a student</a></li>
+                </ul>
+                <div class="d-md-none my-2"><button class="btn btn-primary" type="button">Make a plan to vote</button></div>
+            </div>
+            <div class="d-none d-md-block"><a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" href="#" style="box-shadow: 2px 2px 0px var(--bs-btn-hover-border-color);"><strong>Make a plan to vote</strong></a></div>
+        </div>
+    </nav>
+    <h4 class="text-center" style="padding: 8px;color: var(--bs-body-bg);background: var(--bs-gray-800);border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;">Make a plan to vote&nbsp;<span style="color: var(--bs-body-bg);">🗳️</span></h4>
+    <div class="d-flex flex-column flex-shrink-1 align-items-stretch" style="background: var(--bs-body-color);margin: 10px;border-radius: 6px;padding: 10px;">
+        <h2 style="text-align: center;margin: 10px;padding: 10px;border-radius: 6px;font-weight: bold;"><span style="font-weight: normal !important;">Register to vote</span></h2>
+        <p class="text-center">You will be directed to the Minnesota Secretary of State website to register to vote.<br><br>This shouldn't take more than ten minutes.<br><br>When you're done, come back here to complete your plan!</p>
+        <div class="d-flex align-items-stretch align-content-stretch" style="background: var(--bs-body-color);--bs-body-color: var(--bs-secondary-text-emphasis);margin: 0px;padding: 10px;border-radius: 6px;margin-bottom: 10px;"><a class="btn btn-primary flex-grow-1" role="button" id="hover-1" style="background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);padding: 8px 12px;" href="https://mnvotes.sos.mn.gov/voterregistration/index" onclick="check_registration()" rel="external" target="_blank"><strong>Register to vote</strong><span class="spinner-border spinner-border-sm visually-hidden" role="status" id="registration_spinner-1"></span></a></div>
+        <div id="in_person_div" class="visually-hidden">
+            <div class="d-flex flex-row justify-content-between align-items-center" style="background: var(--bs-body-color);--bs-body-color: var(--bs-secondary-text-emphasis);margin: 0px;padding: 10px;border-radius: 6px;margin-bottom: 10px;"><label class="form-label d-flex" style="padding: 0px;margin: 0px;"><strong>When?</strong></label>
+                <div class="btn-group" role="group" id="early_voting" style="padding: 4px;"><button class="btn btn-secondary" onclick="switch_button(0, this.parentElement.id)" type="button">On election day</button><button class="btn btn-primary" onclick="switch_button(1, this.parentElement.id)" type="button">Early</button></div>
+            </div>
+        </div><button class="btn btn-primary" id="hover" type="button" style="background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);padding: 8px 12px;"><strong>Finish my plan ✅</strong></button>
+    </div>
+    <div class="d-flex flex-column flex-shrink-1 justify-content-between align-items-stretch visually-hidden" id="not_registered" style="background: var(--bs-body-color); margin: 10px;border-radius: 6px;padding: 10px;">
+        <h2 style="text-align: center;margin: 10px;padding: 10px;border-radius: 6px;"><strong>Record of voter registration could not be found</strong></h2>
+        <p class="text-center">Double-check the information you entered, if it's correct, you may not be registered yet.</p><a class="btn btn-primary text-center d-flex d-xxl-flex justify-content-center align-items-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-center" role="button" data-bss-hover-animate="pulse" href="#" style="box-shadow: 2px 2px 0px var(--bs-btn-hover-border-color);"><strong>Register to vote</strong></a>
+    </div>
+    <div class="d-flex flex-column flex-shrink-1 justify-content-between align-items-stretch visually-hidden" id="registered" style="background: var(--bs-body-color); margin: 10px;border-radius: 6px;padding: 10px;">
+        <h2 style="text-align: center;margin: 10px;padding: 10px;border-radius: 6px;"><strong>Record of voter registration found!</strong></h2><a class="btn btn-primary text-center d-flex d-xxl-flex justify-content-center align-items-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center justify-content-xxl-center align-items-xxl-center" role="button" data-bss-hover-animate="pulse" href="#" style="box-shadow: 2px 2px 0px var(--bs-btn-hover-border-color);"><strong>Make a plan to vote</strong></a>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/voting_data.js"></script>
+    <script src="assets/js/check-registration.js"></script>
+    <script src="assets/js/finish-plan.js"></script>
+    <script src="assets/js/make-plan.js"></script>
+    <script src="assets/js/map.js"></script>
+    <script src="assets/js/pre-screener.js"></script>
+</body>
+
+</html>
