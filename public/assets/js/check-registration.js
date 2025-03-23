@@ -1,5 +1,5 @@
 async function get_streets() {
-    const response = await fetch(`http://127.0.0.1:5000/api/streets?zip_code=${document.getElementById("zip_code").value}`)
+    const response = await fetch(`https://minnvotesapis-s5424fuvjq-uc.a.run.app/api/streets?zip_code=${document.getElementById("zip_code").value}`)
     const data = await response.json()
     
     return data.streets;
@@ -43,7 +43,7 @@ async function check_registration() {
     const dob_month = dateOfBirth.getMonth() + 1;
     const dob_year = dateOfBirth.getFullYear();
 
-    const response = await fetch(`http://127.0.0.1:5000/api/check_registration?first_name=${document.getElementById("first_name").value}&last_name=${document.getElementById("last_name").value}&dob_day=${dob_day}&dob_month=${dob_month}&dob_year=${dob_year}&zip_code=${document.getElementById("zip_code").value}&house_number=${document.getElementById("house_number").value}&sel_street=${JSON.stringify(await sel_street_constructor())}`);
+    const response = await fetch(`https://minnvotesapis-s5424fuvjq-uc.a.run.app/api/check_registration?first_name=${document.getElementById("first_name").value}&last_name=${document.getElementById("last_name").value}&dob_day=${dob_day}&dob_month=${dob_month}&dob_year=${dob_year}&zip_code=${document.getElementById("zip_code").value}&house_number=${document.getElementById("house_number").value}&sel_street=${JSON.stringify(await sel_street_constructor())}`);
     
     const data = await response.json();
 

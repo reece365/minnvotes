@@ -9,7 +9,8 @@
 <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.min.js"></script>
 <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>MinnStudentsVote</title>
+    <title>MinnVotes - Make a plan to vote</title>
+    <link rel="icon" type="image/png" sizes="1614x1614" href="assets/img/minnstudentsvote.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&amp;display=swap">
     <link rel="stylesheet" href="assets/css/animate.min.css">
@@ -23,12 +24,12 @@
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html" style="font-family: 'IBM Plex Sans';font-weight: bold;"><img style="width: 32px;height: 32px;margin: 0px 8px 0px 0px;" src="assets/img/minnstudentsvote.png"><span>MinnVotes</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse text-center flex-grow-0 order-md-first" id="navcol-6">
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Leaderboard</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="leaderboard.html">Leaderboard</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Voting as a student</a></li>
                 </ul>
                 <div class="d-md-none my-2"><button class="btn btn-primary" type="button">Make a plan to vote</button></div>
             </div>
-            <div class="d-none d-md-block"><a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" href="#" style="box-shadow: 2px 2px 0px var(--bs-btn-hover-border-color);"><strong>Make a plan to vote</strong></a></div>
+            <div class="d-none d-md-block"><a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" href="pre-screener.html" style="box-shadow: 2px 2px 0px var(--bs-btn-hover-border-color);"><strong>Make a plan to vote</strong></a></div>
         </div>
     </nav>
     <h4 class="text-center" style="padding: 8px;color: var(--bs-body-bg);background: var(--bs-gray-800);border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;">Check the leaderboard 🥇</h4>
@@ -72,6 +73,7 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/voting_data.js"></script>
+    <script src="assets/js/analytics.mjs" type="module"></script>
     <script src="assets/js/check-registration.js"></script>
     <script src="assets/js/finish-plan.js"></script>
     <script src="assets/js/make-plan.js"></script>

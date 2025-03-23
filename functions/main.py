@@ -64,10 +64,22 @@ def check_registration():
     response_text = response.text
 
     # Use regular expressions to find the element with class 'oss_results_header'
-    status_match = re.search(r'<[^>]*class="oss_results_header"[^>]*>(.*?)</[^>]*>', response_text, re.DOTALL)
-    status_message = status_match.group(1).strip() if status_match else 'Status not found'  
+    status_search_pattern = r'<h2[^>]*class="[^"]*\boss_results_header\b[^"]*"[^>]*>.*?</h2>'
+    status_match = re.search(status_search_pattern, response_text, re.DOTALL)
+    status_message = status_match.group(0).strip() if status_match else 'Status not found'  
+    status_message = re.sub(r'<[^>]*>', '', status_message)
 
-    return { "status": status_message, "polling_place": "Not implemented" }
+    polling_place_search_pattern = r'<p[^>]*class="[^"]*\boss_text-data\b[^"]*"[^>]*>.*?</p>'
+    polling_place_match = re.search(polling_place_search_pattern, response_text, re.DOTALL)
+
+    try:
+        polling_place = polling_place_match.group(1).strip() if polling_place_match else 'Polling place not found'
+        # Get inner text of the element
+        polling_place = re.sub(r'<[^>]*>', '', polling_place)
+    except:
+        polling_place = "Polling place not found"
+
+    return { "status": status_message, "polling_place": polling_place }
 
 @app.route('/api/streets', methods=['GET'])
 @cross_origin()

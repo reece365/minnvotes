@@ -9,9 +9,19 @@
 <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.min.js"></script>
 <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v5.0.3/mapbox-gl-geocoder.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>MinnStudentsVote</title>
+    <title>MinnVotes - Make a plan to vote</title>
+    <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "name": "MinnVotes",
+            "url": "https://minnvotes.org"
+        }
+    </script>
+    <link rel="icon" type="image/png" sizes="1614x1614" href="assets/img/minnstudentsvote.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-Dark-icons.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -19,15 +29,15 @@
 
 <body style="background: var(--bs-secondary-text-emphasis);color: var(--bs-body-bg);">
     <nav class="navbar navbar-expand-md bg-dark py-3" data-bs-theme="dark">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#" style="font-family: 'IBM Plex Sans';font-weight: bold;"><img style="width: 32px;height: 32px;margin: 0px 8px 0px 0px;" src="assets/img/minnstudentsvote.png"><span>MinnVotes</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="index.html" style="font-family: 'IBM Plex Sans';font-weight: bold;"><img style="width: 32px;height: 32px;margin: 0px 8px 0px 0px;" src="assets/img/minnstudentsvote.png"><span>MinnVotes</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse text-center flex-grow-0 order-md-first" id="navcol-6">
                 <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Leaderboard</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="leaderboard.html">Leaderboard</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Voting as a student</a></li>
                 </ul>
                 <div class="d-md-none my-2"><button class="btn btn-primary" type="button">Make a plan to vote</button></div>
             </div>
-            <div class="d-none d-md-block"><a class="btn btn-primary" role="button" href="pre-screener.html" style="background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);"><strong>Make a plan to vote</strong></a></div>
+            <div class="d-none d-md-block"><a class="btn btn-primary" role="button" data-bss-hover-animate="pulse" href="pre-screener.html" style="box-shadow: 2px 2px 0px var(--bs-btn-hover-border-color);"><strong>Make a plan to vote</strong></a></div>
         </div>
     </nav>
     <div class="d-flex flex-column flex-shrink-1 align-items-stretch" style="background: var(--bs-body-color);margin: 10px;border-radius: 6px;padding: 10px;">
@@ -36,11 +46,16 @@
     </div>
     <h1 class="text-center"></h1>
     <div class="d-flex flex-column flex-shrink-1 align-items-stretch" style="background: var(--bs-body-color);margin: 10px;border-radius: 6px;padding: 10px;">
-        <h2 style="text-align: center;margin: 10px;padding: 10px;border-radius: 6px;"><strong>I want to...</strong></h2><a class="btn btn-primary" role="button" style="margin-bottom: 10px;background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);padding: 8px 12px;" id="hover" href="pre-screener.html"><strong>🗳️&nbsp; Make a plan to vote</strong></a><button class="btn btn-primary" type="button" style="margin-bottom: 10px;background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);padding: 8px 12px;"><strong>ℹ️&nbsp; Learn about voting as a student</strong></button><button class="btn btn-primary" type="button" style="margin-bottom: 10px;background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);padding: 8px 12px;"><strong>&nbsp;</strong>🥇&nbsp;<strong>View the school leaderboard</strong></button>
+        <h2 style="text-align: center;margin: 10px;padding: 10px;border-radius: 6px;"><strong>I want to...</strong></h2><a class="btn btn-primary" role="button" style="margin-bottom: 10px;background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);padding: 8px 12px;" id="hover" href="pre-screener.html"><strong>🗳️&nbsp; Make a plan to vote</strong></a><button class="btn btn-primary" type="button" style="margin-bottom: 10px;background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);padding: 8px 12px;"><strong>ℹ️&nbsp; Learn about voting as a student</strong></button><a class="btn btn-primary" role="button" style="margin-bottom: 10px;background: linear-gradient(var(--bs-btn-bg) 0%, var(--bs-btn-active-bg) 100%);padding: 8px 12px;" href="leaderboard.html"><strong>&nbsp;</strong>🥇&nbsp;<strong>View the school leaderboard</strong></a>
+    </div>
+    <div style="background: var(--bs-body-color);margin: 10px;border-radius: 6px;padding: 10px;">
+        <h6 style="text-align: center;">Made by Idrees Ahmad in Woodbury, Minnesota</h6>
+        <h6 class="fw-light" style="text-align: center;">Winner of the <a href="https://mccollum.house.gov/media/press-releases/rep-mccollum-congratulates-congressional-app-challenge-winner-idrees-ahmad">2024 Congressional App Challenge</a> for Minnesota's 4th District</h6>
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/voting_data.js"></script>
+    <script src="assets/js/analytics.mjs" type="module"></script>
     <script src="assets/js/check-registration.js"></script>
     <script src="assets/js/finish-plan.js"></script>
     <script src="assets/js/make-plan.js"></script>
